@@ -13,3 +13,11 @@ const order = {
 };
 
 order.displayOrder()
+
+//Task 3: Array Manipulation
+const cartItems = ['Eggs','Milk','Yogurt'];
+cartItems.push('Bread'); //Adds a new item
+cartItems.pop(); //Removes the last item
+cartItems.unshift('Blackberries'); //adds a item at the front of the array
+cartItems.shift(); //Removes the first item
+console.log(cartItems);
