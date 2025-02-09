@@ -38,3 +38,12 @@ const availableProducts = inventory.filter(quantity => quantity > 0);
 
 // Log the filtered array to the console
 console.log(availableProducts); // Output: [5, 12, 8]
+
+//Task 6: 
+const sales = [500, 300, 200, 400]; //Declaring an arrray for sales
+
+// Use the .reduce() method to calculate the total revenue
+const totalRevenue = sales.reduce((total, sale) => total + sale, 0);
+
+// Log the total revenue to the console
+console.log(totalRevenue); // Output: 1400
