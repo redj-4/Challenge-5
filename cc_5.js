@@ -56,3 +56,18 @@ const foundCustomer = customers.find(customer => customer === "Charlie");
 
 // Log the result to the console
 console.log(foundCustomer); // Output: "Charlie"
+
+//Task 8: Function Declaration 
+function calculateTax(amount, taxRate) {            //--> function for tax
+  return amount * taxRate;
+}
+
+// Example usage:
+const amount = 150;        // Example amount
+const taxRate = 0.1;       // Example tax rate (10%)
+
+// Calculate the tax
+const tax = calculateTax(amount, taxRate);
+
+// Log the calculated tax using a template literal
+console.log(`For an amount of $${amount} at a tax rate of ${taxRate * 100}%, the calculated tax is $${tax}.`);
