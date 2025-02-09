@@ -71,3 +71,19 @@ const tax = calculateTax(amount, taxRate);
 
 // Log the calculated tax using a template literal
 console.log(`For an amount of $${amount} at a tax rate of ${taxRate * 100}%, the calculated tax is $${tax}.`);
+
+
+//Task 9: Function Expression
+const applyDiscount = function(price, discount) {          // Declare a function expression for applying a discount
+  return price * (1 - discount);
+};
+
+// Example usage:
+const originalPrice = 100;   // Example original price
+const discountRate = 0.2;    // Example discount rate (20%)
+
+// Calculate the discounted price
+const discountedPrice = applyDiscount(originalPrice, discountRate);
+
+// Log the result to the console
+console.log(`The discounted price is: $${discountedPrice}`); // Output: The discounted price is: $80
