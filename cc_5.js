@@ -87,3 +87,15 @@ const discountedPrice = applyDiscount(originalPrice, discountRate);
 
 // Log the result to the console
 console.log(`The discounted price is: $${discountedPrice}`); // Output: The discounted price is: $80
+
+
+//Task 10: Arrow Function
+const calculatePoints = purchaseAmount => Math.floor(purchaseAmount / 10);     // Arrow function to calculate loyalty points based on the purchase amount.
+// 1 point is awarded for every $10 spent.
+
+// Example usage:
+const purchaseAmount = 150; // Example purchase amount
+const points = calculatePoints(purchaseAmount);
+
+// Log the result to the console
+console.log(`Loyalty points earned for a purchase of $${purchaseAmount}: ${points}`);
