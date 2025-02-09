@@ -21,3 +21,11 @@ cartItems.pop(); //Removes the last item
 cartItems.unshift('Blackberries'); //adds a item at the front of the array
 cartItems.shift(); //Removes the first item
 console.log(cartItems);
+
+//Task 4: Math Method
+const prices = [100,200,300]; //declare an array of prices
+
+const discountedPrices = prices.map(price => price * 0.9); // Use the .map() method to apply a 10% discount to each price
+
+// Log the new discounted prices to the console
+console.log(discountedPrices); // Output: [90, 180, 270]
